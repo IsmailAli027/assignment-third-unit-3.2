@@ -22,13 +22,17 @@ for (let i = 0; i<6; i++){
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 3 to 5');
 // start i at 3, while i is < 6 do code between {}, afterwards add 1 to i (i++)
-for (let i= 3; i<6; i++) {
+for (let i = 3; i<6; i++) {
   console.log(i);
 }
 
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
+// start 1 at 2, while i<10 do code between {}, add 2 to i (i+2)
+for( i= 2; i<11; i+=2){
+  console.log(i);
+}
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
