@@ -22,7 +22,9 @@ for (let i = 0; i<6; i++){
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 3 to 5');
 // start i at 3, while i is < 6 do code between {}, afterwards add 1 to i (i++)
-for (let i)
+for (let i= 3; i<6; i++) {
+  console.log(i);
+}
 
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
