@@ -74,7 +74,9 @@ while( index < max ){
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
 index = 10;
-const min = 4; {
+const min = 4; 
+while (index > min){
+  
   console.log('in while loop, index:', index);
   index--;
 }
