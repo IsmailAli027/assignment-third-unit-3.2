@@ -13,10 +13,16 @@ for (let i=0; i<4; i++) {
 // 1.a. TODO: Write a for loop to console.log the numbers from 0 to 5 
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 0 to 5');
+// i is still at 0, i is < 6 now do code bet {}, lastly still add 1 to i (i++)
+for (let i = 0; i<6; i++){
+  console.log(i);
+}
 
 // 1.b. TODO: Write a for loop to console.log the numbers from 3 to 5
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 3 to 5');
+// start i at 3, while i is < 6 do code between {}, afterwards add 1 to i (i++)
+for (let i)
 
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
